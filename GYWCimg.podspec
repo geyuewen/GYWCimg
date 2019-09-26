@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GYWCimg'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = '测试一次'
 
 # This description is used to generate tags and improve search results.
@@ -22,13 +22,13 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/geyuewen/GYWCimg'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'geyuewen1994@126.com' => 'geyuewen1994@126.com' }
+  s.author           = { 'geyuewen' => 'geyuewen1994@126.com' }
   s.source           = { :git => 'https://github.com/geyuewen/GYWCimg.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'GYWCimg/Classes/**/*'
+s.source_files = 'GYWCimg/Classes/*.{h,m}'
   
   # s.resource_bundles = {
   #   'GYWCimg' => ['GYWCimg/Assets/*.png']
