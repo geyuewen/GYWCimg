@@ -8,14 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GYWCimg'
-  s.version          = '0.0.3'
-  s.summary          = '测试一次'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = '0.0.4'
+  s.summary          = '测试中'
 
   s.description      = '阿斯顿发送到发斯蒂芬'
 
@@ -28,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-s.source_files = 'GYWCimg/Classes/*.{h,m}'
+s.source_files = 'GYWCimgTool/Classes/*.{h,m}'
   
   # s.resource_bundles = {
   #   'GYWCimg' => ['GYWCimg/Assets/*.png']
