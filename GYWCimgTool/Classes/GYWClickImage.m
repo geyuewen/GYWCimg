@@ -34,6 +34,14 @@
     NSLog(@"1");
 }
 - (void)b {
-    NSLog(@"12");
+    NSBundle * bundle = [NSBundle bundleForClass:[self class]];
+    NSString * imgpath = [bundle pathForResource:@"carPD.png" ofType:nil inDirectory:@"GYWCimg.bundle"];
+    UIImage * img = [UIImage imageWithContentsOfFile:imgpath];
+    UIImageView * imgview = [[UIImageView alloc] initWithImage:img];
+    imgview.frame = CGRectMake(0, 0, 100, 100);
+    [self addSubview:imgview];
 }
+    
+
+
 @end
