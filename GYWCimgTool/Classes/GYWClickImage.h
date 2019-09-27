@@ -18,4 +18,5 @@
 
 @property (nonatomic, weak) id<imageDelegate> delegate;
 - (void)a;
+- (void)b;
 @end

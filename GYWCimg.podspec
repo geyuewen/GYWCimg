@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GYWCimg'
-  s.version          = '0.0.4'
-  s.summary          = '测试中'
+  s.version          = '0.0.5'
+  s.summary          = '我尝试一下'
 
   s.description      = '阿斯顿发送到发斯蒂芬'
 

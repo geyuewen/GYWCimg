@@ -33,4 +33,7 @@
 - (void)a{
     NSLog(@"1");
 }
+- (void)b {
+    NSLog(@"12");
+}
 @end
